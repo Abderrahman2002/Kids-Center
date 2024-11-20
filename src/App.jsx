@@ -10,6 +10,7 @@ import Teachers from './components/Teachers';
 import Testimonials from './components/Testimonials';
 import Sponsors from './components/Sponsors';
 import Blogs from './components/Blogs';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <br />
       <br />
       <Sponsors />
+      <Footer />
     </div>
   );
 };
